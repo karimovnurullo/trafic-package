@@ -1,0 +1,96 @@
+.pro {
+   width: 350px;
+   height: 515px;
+   background: #fff;
+   border-radius: 6px;
+   display: flex;
+   flex-direction: column;
+   text-align: left;
+   padding: 30px 45px;
+   gap: 20px;
+
+   .nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      .title {
+         font-weight: 700;
+         font-size: 13px;
+         color: #666666;
+      }
+
+      .popular {
+         padding: 6px 13px;
+         background: #4EAB08;
+         border-radius: 13px;
+         width: fit-content;
+         font-size: 12px;
+         color: #fff;
+         font-weight: 700;
+      }
+   }
+
+
+   .price-div {
+      font-weight: 700;
+      font-size: 17px;
+      color: #1F1F1F;
+
+      .dollar {
+         position: relative;
+         top: -15px;
+         font-size: 30px;
+      }
+
+      span {
+         font-size: 50px;
+      }
+   }
+
+   .description {
+      font-size: 14px;
+      line-height: 23px;
+      color: #6666;
+   }
+
+   ul {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      list-style: none;
+      color: #1F1F1F;
+
+      li {
+         i {
+            margin-right: 10px;
+         }
+      }
+
+      li.dim {
+         color: #878B90;
+         text-decoration: line-through;
+      }
+   }
+
+   .btn {
+      font-weight: 700;
+      font-size: 18px;
+      padding: 15px 40px;
+      background: #FC593B;
+      border-radius: 5px;
+      width: fit-content;
+      cursor: pointer;
+      transition: all 0.2s;
+      color: #fff;
+
+      &:hover {
+         transform: scale(1.03);
+      }
+   }
+
+   .credit {
+      color: #878B90;
+      font-size: 14px;
+   }
+}

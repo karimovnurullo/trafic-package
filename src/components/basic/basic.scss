@@ -1,0 +1,78 @@
+.basic {
+   width: 350px;
+   height: 515px;
+   background: #2B405A;
+   border-radius: 6px;
+   display: flex;
+   flex-direction: column;
+   text-align: left;
+   padding: 30px 45px;
+   gap: 20px;
+
+   .title {
+      font-weight: 700;
+      font-size: 13px;
+      color: #E5E5E5;
+   }
+
+   .price-div {
+      font-weight: 700;
+      font-size: 17px;
+      color: #fff;
+
+      .dollar {
+         position: relative;
+         top: -15px;
+         font-size: 30px;
+      }
+
+      span {
+         font-size: 50px;
+      }
+   }
+
+   .description {
+      font-size: 14px;
+      line-height: 23px;
+      color: #E5E5E5;
+   }
+
+   ul {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      list-style: none;
+      color: #fff;
+
+      li {
+         i {
+            margin-right: 10px;
+         }
+      }
+
+      li.dim {
+         color: #878B90;
+         text-decoration: line-through;
+      }
+   }
+
+   .btn {
+      font-weight: 700;
+      font-size: 18px;
+      padding: 15px 40px;
+      background: #258AFF;
+      border-radius: 5px;
+      width: fit-content;
+      cursor: pointer;
+      transition: all 0.2s;
+
+      &:hover {
+         transform: scale(1.03);
+      }
+   }
+
+   .credit {
+      color: #878B90;
+      font-size: 14px;
+   }
+}
